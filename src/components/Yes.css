@@ -1,0 +1,144 @@
+/* Yes.css */
+.yes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff5f8; /* Soft pink background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    position: relative; /* For positioning animated elements */
+    overflow: hidden; /* Ensure animations stay within bounds */
+  }
+  
+  .romantic-img {
+    width: 80%;
+    max-width: 350px; /* Adjusted max-width for better layout */
+    border-radius: 15px; /* Rounded corners */
+    margin: 10px 0;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    animation: float 3s ease-in-out infinite; /* Floating animation */
+  }
+  
+  .message {
+    font-family: 'Dancing Script', cursive; /* Romantic script font */
+    font-size: 26px; /* Slightly larger text */
+    color: #000000; /* Romantic pink color */
+    margin: 15px 0; /* Increased margin for spacing */
+    line-height: 1.6; /* Slightly larger line-height */
+    animation: bounce 2s infinite; /* Bouncing animation */
+  }
+  
+  .audio-player {
+    margin: 30px 0; /* Increased margin */
+    border-radius: 10px;
+    background-color: #ffb3e6; /* Light pink background */
+    padding: 10px;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Floating animation for images */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Bouncing animation for messages */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  /* Cute heart animation */
+  @keyframes hearts {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .heart {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url('../assets/hands.png') no-repeat center center; /* Heart image */
+    background-size: contain;
+    animation: hearts 2s infinite;
+  }
+  
+  /* Add more floating hearts for a cute effect */
+  .heart1 {
+    top: 10%;
+    left: 10%;
+    animation: hearts 2s infinite;
+  }
+  
+  .heart2 {
+    top: 30%;
+    left: 40%;
+    animation: hearts 2s infinite 1s; /* Delay for different timing */
+  }
+  
+  .heart3 {
+    top: 50%;
+    left: 70%;
+    animation: hearts 2s infinite 2s; /* Delay for different timing */
+  }
+  
+  .heart4 {
+    top: 20%;
+    left: 60%;
+    animation: hearts 2s infinite 3s; /* Additional heart */
+  }
+  
+  .heart5 {
+    top: 40%;
+    left: 20%;
+    animation: hearts 2s infinite 4s; /* Additional heart */
+  }
+  
+  /* Add a background sparkle effect */
+  .sparkle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/kiligsss.jpeg') repeat; /* Sparkle image */
+    opacity: 0.2;
+    pointer-events: none;
+    animation: sparkleAnimation 1.5s infinite; /* Sparkle animation */
+  }
+  
+  @keyframes sparkleAnimation {
+    0% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 0.2;
+    }
+  }
+  

@@ -1,0 +1,86 @@
+/* General Styles */
+.proposal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FFAFBD, #FFC3A0);
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.ask {
+  margin-top: 20px;
+}
+
+.ask p {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.crush {
+  color: #FF61A6;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between buttons */
+  position: relative; /* Ensure buttons are positioned relative to the container */
+}
+
+.yes-button,
+.no-button {
+  background: #FF61A6;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.5s, transform 0.3s;
+}
+
+.yes-button:hover,
+.no-button:hover {
+  background: #FF7F7F;
+  transform: scale(1.1);
+}
+
+/* Position classes for NO button */
+.position-0 {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 60px); /* Center the button */
+}
+
+.position-1 {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 40px); /* Adjust based on positioning */
+}
+
+.position-2 {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% - 20px); /* Adjust based on positioning */
+}
+
+.position-3 {
+  position: absolute;
+  bottom: 20px;
+  left: calc(50% + 0px); /* Adjust based on positioning */
+}
+
+/* Image Styles */
+.images img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 15px;
+  transition: opacity 1s ease-in-out;
+}
