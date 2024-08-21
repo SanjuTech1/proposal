@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/proposal/static/css/main.5471573d.css",
-    "main.js": "/proposal/static/js/main.d3de7aa0.js",
-    "static/media/Kinikilig.mp3": "/proposal/static/media/Kinikilig.f2576d00390ddf60182c.mp3",
-    "static/media/a.pdf": "/proposal/static/media/a.d63b884f5b3cd3fd2cdb.pdf",
-    "static/media/sad-guy-crying-guy.gif": "/proposal/static/media/sad-guy-crying-guy.ce0fb1d53f3a2f6b783a.gif",
-    "static/media/sad-man-tik-tok-meme.gif": "/proposal/static/media/sad-man-tik-tok-meme.16270f93def399d09e04.gif",
-    "static/media/idk.gif": "/proposal/static/media/idk.c14b1c1452060d47dc4d.gif",
-    "static/media/milk-and-mocha.gif": "/proposal/static/media/milk-and-mocha.8f8867b3e7e8804cd2f8.gif",
-    "static/media/packilig.gif": "/proposal/static/media/packilig.4dc4a54a1922c6f7b01f.gif",
-    "static/media/kiligsss.jpeg": "/proposal/static/media/kiligsss.e5f1aabc5282004e7b6e.jpeg",
-    "static/media/crykilig.jpeg": "/proposal/static/media/crykilig.ba9ce0fd5eae78d2eb5d.jpeg",
-    "static/media/hang.jpeg": "/proposal/static/media/hang.44582395bd32db745076.jpeg",
-    "static/media/sadcat.jpeg": "/proposal/static/media/sadcat.5ea35c56a7eecf9c87bd.jpeg",
-    "index.html": "/proposal/index.html",
-    "main.5471573d.css.map": "/proposal/static/css/main.5471573d.css.map",
-    "main.d3de7aa0.js.map": "/proposal/static/js/main.d3de7aa0.js.map"
+    "main.css": "/env/static/css/main.ecb92afa.css",
+    "main.js": "/env/static/js/main.2d160a33.js",
+    "static/media/Kinikilig.mp3": "/env/static/media/Kinikilig.f2576d00390ddf60182c.mp3",
+    "static/media/a.pdf": "/env/static/media/a.d63b884f5b3cd3fd2cdb.pdf",
+    "static/media/sad-guy-crying-guy.gif": "/env/static/media/sad-guy-crying-guy.ce0fb1d53f3a2f6b783a.gif",
+    "static/media/sad-man-tik-tok-meme.gif": "/env/static/media/sad-man-tik-tok-meme.16270f93def399d09e04.gif",
+    "static/media/idk.gif": "/env/static/media/idk.c14b1c1452060d47dc4d.gif",
+    "static/media/milk-and-mocha.gif": "/env/static/media/milk-and-mocha.8f8867b3e7e8804cd2f8.gif",
+    "static/media/packilig.gif": "/env/static/media/packilig.4dc4a54a1922c6f7b01f.gif",
+    "static/media/kiligsss.jpeg": "/env/static/media/kiligsss.e5f1aabc5282004e7b6e.jpeg",
+    "static/media/crykilig.jpeg": "/env/static/media/crykilig.ba9ce0fd5eae78d2eb5d.jpeg",
+    "static/media/hang.jpeg": "/env/static/media/hang.44582395bd32db745076.jpeg",
+    "static/media/sadcat.jpeg": "/env/static/media/sadcat.5ea35c56a7eecf9c87bd.jpeg",
+    "index.html": "/env/index.html",
+    "main.ecb92afa.css.map": "/env/static/css/main.ecb92afa.css.map",
+    "main.2d160a33.js.map": "/env/static/js/main.2d160a33.js.map"
   },
   "entrypoints": [
-    "static/css/main.5471573d.css",
-    "static/js/main.d3de7aa0.js"
+    "static/css/main.ecb92afa.css",
+    "static/js/main.2d160a33.js"
   ]
 }
