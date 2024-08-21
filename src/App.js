@@ -9,9 +9,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-       <Route path="/envelope" element={<EnvelopeAnimation />} />
-      
-        <Route path="/proposals" element={<Proposal />} />
+       <Route path="/env" element={<EnvelopeAnimation />} />  
+        <Route path="/proposal" element={<Proposal />} />
         <Route path="/yes" element={<Yes />} />
       </Routes>
     </Router>

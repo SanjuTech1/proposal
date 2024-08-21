@@ -25,7 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://SanjuTech1.github.io/proposal",
+  "homepage": "https://SanjuTech1.github.io/env",
   "eslintConfig": {
     "extends": [
       "react-app",
