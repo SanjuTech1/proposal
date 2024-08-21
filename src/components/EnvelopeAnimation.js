@@ -1,4 +1,3 @@
-// EnvelopeAnimation.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './EnvelopeAnimation.css';
@@ -38,9 +37,9 @@ const EnvelopeAnimation = () => {
             </div>
             <div className="reset">
                 <button onClick={openEnvelope}>Open</button>
-                <button onClick={closeEnvelope}>Close</button>
-                <button onClick={goToProposal}>Explore More</button>
-                <button onClick={readPdf}>Read PDF</button> {/* Button to open local PDF */}
+               
+                <button onClick={readPdf}>clicke here after opening the letter !!!!!</button>
+                <button className="navbar-button" onClick={goToProposal}> I need to ask you Something !!</button>
             </div>
         </div>
     );

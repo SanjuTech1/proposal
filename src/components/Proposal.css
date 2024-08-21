@@ -34,6 +34,7 @@
   position: relative; /* Ensure buttons are positioned relative to the container */
 }
 
+
 .yes-button,
 .no-button {
   background: #FF61A6;
