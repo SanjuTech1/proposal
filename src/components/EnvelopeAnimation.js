@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './EnvelopeAnimation.css';
 import pdfFile from '../assets/a.pdf'; // Import the PDF file
 
-const EnvelopeAnimation = () => {
+const Proposal = () => {
     const [isOpen, setIsOpen] = useState(false);
     const navigate = useNavigate();
 
@@ -45,4 +45,4 @@ const EnvelopeAnimation = () => {
     );
 };
 
-export default EnvelopeAnimation;
+export default Proposal;
